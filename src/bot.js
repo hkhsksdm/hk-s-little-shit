@@ -9,7 +9,7 @@ const client = new Client({
 
     ],
 });
-const token='MTA4MzU0MjM4MjI4NjQ3OTQyMQ.GQbjJa.Z1oA9CzsiYx1ApyZ7Q0Rto4K77OTkdsakALWRA';
+const token='MTA4MzU0MjM4MjI4NjQ3OTQyMQ.GWFHJ6.ZN5dVyRRbXUT4_0YfFFo7EFCaqDk8fiEUOYfp8';
 
 const PREFIX = 'Moew ';
 
