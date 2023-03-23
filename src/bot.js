@@ -1,4 +1,4 @@
-const{Client, IntentsBitField} = require('discord.js');
+const{Client, IntentsBitField, Attachment} = require('discord.js');
 
 const client = new Client({
     intents:[
@@ -29,10 +29,16 @@ client.on('messageCreate',(message)=>{
         switch(arr[0]){
             case 'help':
                 message.reply('sry cant cope');
+                // const attachment =new Attachment('https://i.kym-cdn.com/photos/images/original/001/384/541/1d8.jpg')
+                // message.send(message.author,attachment);
             break;
 
             case 'work':
                 message.reply('hk dont have a job so im too');
+            break;
+            
+            case 'owner':
+                message.reply('hk');
             break;
         }
     }
@@ -40,6 +46,8 @@ client.on('messageCreate',(message)=>{
     switch(message.content){
         case 'cope':
             message.reply('cope harder');
+            const attachment =new Attachment('https://i.kym-cdn.com/photos/images/original/001/384/541/1d8.jpg')
+            message.send(message.author,attachment);
         break;
 
         case 'ok':
